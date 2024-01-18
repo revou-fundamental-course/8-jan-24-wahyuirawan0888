@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitung Luas Persegi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Kalkulator Persegi</h2>
+        <ul>
+            <li><a href="index.html">Kalkulator Luas Persegi</a></li>
+            <li><a href="index2.html">Kalkulator Keliling persegi</a></li>
+        </ul>
+    </nav>
+
+    <div class="dashbroad">
+        <div class="content">
+            <div class="kotak-biru">
+                <div class="judul-utama">
+                    <h2>Luas Persegi</h2>
+                </div>
+                <div class="gambar-persegi">
+                    <img src="gambar/persegi.jpg" alt="">
+                </div>
+                <div class="kata-awal">
+                    <p>Rumus Luas Persegi Yaitu :</p>
+                </div>
+                <div class="kata-tengah">
+                    <p>L = S x S</p>
+                </div>
+                <div class="kata-akhir">
+                    <p>Dimana : </p>
+                </div>
+                <div class="kata-akhir2">
+                    <p>L= Luas</p>
+                </div>
+                <div class="kata-akhir3">
+                    <p>S= Sisi</p>
+                </div>
+                <div class="box">
+                    <h2>Hitung Luas Persegi</h2>
+                </div>
+                <!-- <div class="label-input">
+                    <label for="sideLength"> Sisi:</label>
+                </div> -->
+                <div class="inputan-angka">
+                    <input type="number" id="sideLength" placeholder="Nilai sisi">
+                </div>
+                <div >
+                    <button class="tombol-input" onclick="calculateArea()">Hitung Luas</button>
+                </div>
+                <div class="hasil-output">
+                    <p id="result"><span id="areaResult"></span></p>
+                </div>
+                <!-- ... (HTML yang lain) ... -->
+                <div class="hasil-output">
+                    <p id="areaResult" contenteditable="true"></p>
+                </div>
+                <!-- ... (HTML yang lain) ... -->
+      
+                <div>
+                    <button class="tombol-reset" onclick="resetInput()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <script src="script/javascripct.js"></script>
+</body>
+<div class="footer">
+<footer>
+    &copy; copyright 2024 | Wahyu Irawan
+</footer>
+</div>
+</html>

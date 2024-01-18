@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .navbar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navbar h2 {
+    margin: 0;
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .navbar li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .kotak-biru{
+    border: 2px solid blue;
+    padding: 45px;
+    width: 80%;
+    margin: 30px;
+  }
+
+  div.judul-utama{
+    background-color: blue;
+    color: whitesmoke;
+    width: 100%;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+  }
+
+  div.gambar-persegi{
+    display: flex;
+    /* width: 30%; */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  div.kata-awal{
+    width: auto;
+    text-align: left;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  div.kata-tengah{
+    text-align: center;
+    vertical-align: middle;
+    height: 50px; 
+    font-size: x-large;   
+  }
+
+  div.kata-akhir{
+    /* float: left; */
+    text-align: left;
+    width: auto;
+    /* margin-bottom: 50px; */
+  }
+  div.kata-akhir2{
+    text-align: left;
+  }
+  div.kata-akhir3{
+    text-align: left;
+  }
+
+  div.judul-konten {
+    /* text-align: left;
+    /* font-size: 36px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: -1px; */
+    transform: translateY(50px);
+    
+  }
+
+  input {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+  }
+
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  button.tombol-input{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button.tombol-input:hover{
+    background-color: darkblue;
+  }
+
+  button.tombol-reset{
+    background-color: orange;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: right;
+    float: right;
+  }
+  button.tombol-reset:hover{
+    background-color: orangered;
+  }
+
+  div.hasil-output{
+    text-align: left;
+    color: #424242;
+  }
+
+footer{
+  background-color: blue;
+  color: whitesmoke;
+  padding: 8px;
+}
